@@ -1,0 +1,5 @@
+product.controller.js :- get products
+user.controller.js :- sign-up & login
+auth.middleware.js :- .verify
+
+productlist.html :- sort & search

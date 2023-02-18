@@ -1,0 +1,43 @@
+
+1. npm init
+2. npm i nodemon
+3. npm run server
+
+
+
+
+4. npm i (before file)
+4 ============================
+1. install babel packages
+
+cmd: npm i @babel/node @babel/core @babel/cli @babel/preset-env
+2. create .babelrc file in root
+.babelrc =>
+
+{
+    "presets": ["@babel/preset-env"]
+
+}
+
+3. create script for babel with nodemon in package.json
+
+
+
+4.. install mongoose
+cmd:> npm i mongoose
+
+5.install express
+cmd:> npm i express
+
+
+6.install body-perser
+cmd:> npm i body-parser
+
+
+====================
+user - Name , Email, (optional - Password, Contact)
+category - Name , Alias
+Product - Name, Category, Price, Quantity, Description, Image
+
+
+remove file from drive in backend use fs.unlink
